@@ -1,9 +1,6 @@
 language: node_js
 rvm:
  - 2.5
-install:
-  - npm install
-  - npm run build
 deploy:
   provider: heroku
   script: npm build && npm start
