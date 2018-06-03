@@ -1,0 +1,16 @@
+.hide {
+    display: none;
+}
+
+.container > .menu {
+    display: flex;
+}
+.menu > .buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 15px
+}
+.menu > button {
+    width: 100px
+}

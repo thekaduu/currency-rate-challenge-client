@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="bundle.js"></script>
+    <link rel="stylesheet" href="css/placeholder.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio Taxa de câmbio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div style="flex:8"> </div>
+            <div style="flex:1" class="buttons">
+                <button class="button" onclick="homeController.selectCurrency('EUR')">Euro</button>
+                <button class="button" onclick="homeController.selectCurrency('BRL')">Real</button>
+                <button class="button" onclick="homeController.selectCurrency('ARS')">Peso Argentino</button>
+            </div>
+        </div>
+        <div class="ph-item" id="placeholderLoader">
+            <div class="ph-col-12">
+                <div id="chart-loader" class="ph-picture" style="height: 380px; width: 100%"></div>
+            </div>
+        </div>
+        <div id="chart" class="hide" style="height: 380px; width: 100%"></div>
+    </div>
+</body>
+</html>
