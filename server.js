@@ -1,6 +1,6 @@
 const express = require('express')
 let app = express()
-const port = 80
+const port = process.env.PORT || 8080;
 
 app.listen(port);
 

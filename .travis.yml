@@ -3,6 +3,6 @@ rvm:
  - 2.5
 deploy:
   provider: heroku
-  script: npm build && npm start
+  script: npm install && npm build && npm start
   api_key:
     secure: "65a8d706-af54-4afb-b4b8-c27a6b8801d6"
