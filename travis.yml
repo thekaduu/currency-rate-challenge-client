@@ -1,0 +1,12 @@
+language: javascript
+rvm:
+ - 2.5
+install:
+  - npm install
+  - npm run build
+script:
+  - npm start
+deploy:
+  provider: heroku
+  api_key:
+    secure: "65a8d706-af54-4afb-b4b8-c27a6b8801d6"

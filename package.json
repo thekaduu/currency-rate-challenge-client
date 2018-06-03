@@ -2,9 +2,11 @@
   "name": "currency_rate",
   "version": "1.0.0",
   "description": "Currency Rate using highchart",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
