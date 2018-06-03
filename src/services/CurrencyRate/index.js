@@ -41,7 +41,7 @@ class CurrencyRateTransformer {
 export default class CurrencyRateService {
 
     constructor() {
-        this.uri = 'http://localhost:9292/api/v1/currencyrate';
+        this.uri = "https://currency-rate-challenge.herokuapp.com/api/v1/currencyrate"
     }
 
     /**
