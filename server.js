@@ -9,9 +9,6 @@ app.get('/',function(req,res){
     res.sendFile(__dirname + '/public/index.html');
 });
 
-app.get('/bundle.js',function(req,res){
-    res.sendFile(__dirname + '/public/bundle.js');
-});
 
 app.use(express.static('public'));
 
