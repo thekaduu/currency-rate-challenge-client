@@ -4,8 +4,6 @@ rvm:
 install:
   - npm install
   - npm run build
-script:
-  - npm run start
 deploy:
   provider: heroku
   api_key:
