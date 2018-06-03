@@ -1,5 +1,4 @@
 import * as Highcharts from 'highcharts';
-
 export interface AreaChartParameter {
   datas: Array < Array < number >> ,
   divName: string,
