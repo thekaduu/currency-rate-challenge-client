@@ -6,5 +6,6 @@ install:
   - npm run build
 deploy:
   provider: heroku
+  script: npm start
   api_key:
     secure: "65a8d706-af54-4afb-b4b8-c27a6b8801d6"
