@@ -27,7 +27,7 @@ export class AreaChart {
         type: "datetime",
         ordinal: true,
         dateTimeLabelFormats: {
-          day: '%a'
+          day: '%e/%m/%Y'
         }
       },
 
