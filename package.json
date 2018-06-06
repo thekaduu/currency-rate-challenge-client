@@ -4,6 +4,7 @@
   "description": "Currency Rate using highchart",
   "main": "server.js",
   "scripts": {
+    "postinstall": "npm build",
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "webpack --mode production",
     "start": "node server"
